@@ -1,0 +1,169 @@
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 20px;
+    background-color: #495867;
+    font-family: Marck Script;
+}
+
+#blog {
+    top: 80px;
+    background-color: #966448; 
+}
+
+#Gallery {
+    top: 140px;
+    background-color: #9B3120; 
+}
+
+#contact {
+    top: 200px;
+    background-color: #2D2D2D ;
+}
+
+
+#background{
+    height: 120vh;
+    width: "700"
+    background-image: url("img/bnw");
+    background-size: cover;
+    background-image: url("img/bnw");
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    height: 600px;
+    width: 1000px;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0vh;
+}
+
+#aboutme{
+  background-color: #9B3120;
+  overflow: auto; 
+    font-size: 15;
+}
+
+#aboutme h1{
+    margin: 0;
+}
+
+.aboutphoto {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.aboutparagraph {
+    display: block;
+    width: 50%;
+    float: right;
+    font-size: 20;
+    font-style: Marck Script;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header{
+   background-color: #966448;
+    font-family: Marck Script;
+}
+.row{
+   background-color: #12263A; 
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.stylesheet{
+    font-style: Marck Script;
+}
+
+
